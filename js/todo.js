@@ -2,7 +2,14 @@
 
 // ダイアログテスト
 const confirmDialog = () => {
-  window.confirm("確認ダイアログのテスト");
+  window.confirm("ダイアログテスト");
+}
+
+const fwjconfirmDialog = () => {
+  let confirmAnswer = window.confirm("fwjのサイトに移動します。");
+  if (confirmAnswer == true) {
+    fwjMovement();
+  }
 }
 
 const fwjMovement = () => {
