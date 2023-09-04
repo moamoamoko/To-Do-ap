@@ -9,3 +9,30 @@
   margin-bottom: 50px;
   cursor: pointer;
 }
+
+div .add_task {
+  width: 100%;
+  padding: 8px 16px;
+  margin: 16px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+label .Notifications {
+  margin-top: 8px;
+}
+
+button .add_task_button {
+  width: 50%;
+  height: 2.5em;
+  margin: 8px auto;
+  padding: 4px 0;
+  border-radius: 4px;
+  background-color: blue;
+  color: white;
+}
+
+button:hover {
+  opacity: .7;
+}
